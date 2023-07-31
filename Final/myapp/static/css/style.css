@@ -1,0 +1,42 @@
+/* static/css/style.css */
+
+/* Example: Set the width and height of the photo */
+img {
+    width: 280px;  /* Adjust this value to your desired width */
+    height: auto;  /* This ensures the aspect ratio is maintained */
+}
+
+.linkedin-img {width: 300px !important; height: 200px !important;}
+
+.logo-medium {width: 150px; height: auto;}
+
+.logo-small {width: 120px;height: auto;}
+
+h3 {color: #8B4513;}
+
+.logo-school {width: 500px; height: auto;}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures the content is centered even if there is not enough content to fill the whole viewport */
+}
+
+/* Center the h1 and h2 elements */
+h1, h2 {
+  text-align: center;
+}
+
+/* Center the images and h4 elements */
+img, h4 {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add spacing between paragraphs */
+p {
+  margin: 10px 0;
+}

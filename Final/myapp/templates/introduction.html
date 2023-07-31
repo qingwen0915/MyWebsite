@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Hello Everyone, welcome to my project in Django</h1>
+
+    <h2>My name is Qing Wen </h2>
+
+    <img src="{% static 'img/myself1.jpg' %}" alt="My Photo">
+
+    <ul>
+        <a href="{% url 'about_me' %}">About Me</a>
+    </ul>
+
+    <h4> Visit my <a href="https://www.linkedin.com/in/qing-wen-996484204/" target="_blank">LinkedIn</a>
+    </h4>
+
+    <h4> Visit my <a href="https://github.com/qingwen0915" target="_blank">Github</a></h4>
+
+    <h2>My Education</h2>
+
+    <h3>University of California-San Diego</h3>
+    <h4>Bachelor of Science in Applied Mathematics, Minor in Economics, Major GPA: 4.0/4.0</h4>
+    <br>
+    <a href="https://ucsd.edu/about/index.html" target="_blank">
+        <img src="{% static 'img/ucsd.jpeg' %}" alt="UCSD Web" class = logo-school>
+    </a>
+    <p></p>
+    <h3>New York University</h3>
+    <h4>Incoming student, Master of Science in Data Science</h4>
+    <br>
+    <a href="https://www.nyu.edu/" target="_blank">
+        <img src="{% static 'img/nyu.jpeg' %}" alt="nyu Web" class = logo-school>
+    </a>
+    <br>
+    <h2>My Professional Experience</h2>
+    <p></p>
+    <!-- Wrap the image with an anchor tag -->
+    <a href="https://www.sailvan.com/index-en.html" target="_blank">
+        <img src="{% static 'img/sailvan.png' %}" alt="Sailvan Web" class="logo-medium">
+    </a>
+    <h3>Sailvan Times - Data Analysis Intern</h3>
+    <p>-------------------------------------------------------------------------</p>
+
+
+    <a href="https://www.hypex.io/" target="_blank">
+        <img src="{% static 'img/hypex.png' %}" alt="HypeX Web" class="logo-small">
+    </a>
+    <h3>HypeX - Research & Development Intern</h3>
+    <p>-------------------------------------------------------------------------</p>
+
+
+    <a href="https://www.tencent.com" target="_blank">
+        <img src="{% static 'img/Tencent.png' %}" alt="Tencent Logo" class="logo-medium">
+    </a>
+    <h3>Tencent - Business Analysis Intern</h3>
+    <p>-------------------------------------------------------------------------</p>
+
+
+</body>
+</html>
